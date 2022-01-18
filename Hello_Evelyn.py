@@ -2,7 +2,7 @@
 print("Hello world")
 print(5 / 8)
 print (7+10)
-print(10/3, 3/10) # print numerical divisions
+print(10/5, 5/10) # print numerical divisions
 print(10//3, 3//10) # print quotients from divisions
 print(10%3, 3%10) # print remainders from divisions
 
@@ -11,17 +11,17 @@ astring = "Thank you"
 anum = 3.14159265358979323846
 cnt = 1
 # Many different ways to print out the same line
-print("%d. I want to say %s" % (cnt,astring) )
+print("%d. I have to say %s" % (cnt,astring) )
 cnt+=1
-print(cnt,". I want to say" + astring )
+print(cnt,". I have to say" + astring )
 cnt+=1
-print(cnt, ". I want to say",astring )
+print(cnt, ". I have to say",astring )
 cnt+=1
-print("%d. I want to say %s, my sweetie %.3f" % (cnt,astring,anum) )
+print("%d. I have to say %s, my sweetie %.3f" % (cnt,astring,anum) )
 cnt+=1
-print("%d. I want to say %s, my sweetie digit %d" % (cnt,astring,anum) )
+print("%d. I have to say %s, my sweetie digit %d" % (cnt,astring,anum) )
 cnt+=1
-print("%d. I want to say %s, my sweetie long %f" % (cnt,astring,anum) )
+print("%d. I have to say %s, my sweetie long %f" % (cnt,astring,anum) )
 cnt+=1
 # For python 3.6+, we can use the f-string
 print(f"{cnt}. I want to say {astring}, my sweetie long {anum.__round__(3)}")
